@@ -1,11 +1,11 @@
-![Maintenance](https://img.shields.io/badge/maintenance-activly--developed-brightgreen.svg)
-
 # glove80-firmware-updater
 
 
-A simple command line utility to update the firmware on a [Glove80]((https://www.moergo.com/) device.
+A simple command line utility to update the firmware on a [Glove80](https://www.moergo.com/) device.
 
 ## Examples
+
+> On linux you can pass --mount to automatically mount devices if your Desktop environment doesn't do this for you. This will prompt you for your password
 
 Run the firmware updater with default values:
 ```bash
@@ -21,7 +21,8 @@ Run the firmware updater with non-default values:
 glove80-firmware-updater -f firmware.uf2 -l GLV80LHBOOT -r GLV80RHBOOT
 ```
 
+# Credits
 
-Current version: 0.1.0
+This repo is forked from [https://github.com/jereanon/glove80-firmware-updater](jereanon/glove80-firmware-updater)
 
 License: BSD-2-Clause
